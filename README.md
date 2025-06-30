@@ -50,8 +50,8 @@ npm run dev
 
 ## 📸 Screenshots
 
-- ![booking.png](demo-screenshots/booking.png)
-- ![summary.png](demo-screenshots/summary.png)
+- ![Doctor_scenario.png](demo/screenshots/Doctor_scenario.png)
+- ![Patient_scenario.png](demo/screenshots/Patient_scenario.png)
 
 
 ## 👤 Bonus
