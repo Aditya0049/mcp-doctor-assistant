@@ -50,7 +50,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-- ![frontend.png](demo/screencapture/frontend.mp4)
+- ![frontend.mp4](demo/screencapture/frontend.mp4)
 
 
 ## 👤 Bonus
