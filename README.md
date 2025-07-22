@@ -50,8 +50,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-- ![Doctor_scenario.png](demo/screenshots/Doctor_scenario.png)
-- ![Patient_scenario.png](demo/screenshots/Patient_scenario.png)
+- ![frontend.png](demo/screencapture/frontend.mp4)
 
 
 ## 👤 Bonus
