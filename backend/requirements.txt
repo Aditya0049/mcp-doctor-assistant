@@ -4,3 +4,13 @@ langchain
 langchain-community
 asyncpg
 python-dotenv
+
+# For database
+google-auth
+google-auth-oauthlib
+google-api-python-client
+python-dotenv
+
+#for email 
+smtplib
+email-validator

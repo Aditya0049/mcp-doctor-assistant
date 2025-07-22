@@ -1,8 +1,4 @@
-# app/calendar.py
-
-import datetime
-
-# 🔧 MOCK calendar booking tool
-async def book_appointment(doctor: str, patient: str, time: str) -> str:
-    # In actual implementation, you'd call Google Calendar API here
-    return f"📅 Appointment with {doctor} for {patient} at {time} has been booked (mocked)."
+def book_appointment(doctor_name: str, date: str, time: str, user_email: str) -> str:
+    print(f"📅 Booking appointment for {doctor_name} on {date} at {time} for {user_email}")
+    # Mock confirmation
+    return f"Appointment booked with {doctor_name} on {date} at {time} for {user_email}"

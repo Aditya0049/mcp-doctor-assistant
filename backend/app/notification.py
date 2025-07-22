@@ -1,6 +1,3 @@
-# app/notification.py
-
-# 🔔 MOCK notification sender for doctor summary
-async def send_doctor_notification(doctor: str, message: str) -> str:
-    print(f"📲 Notification sent to {doctor} with message:\n{message}")
-    return "✅ Notification sent (mocked)"
+def send_doctor_notification(doctor_name: str, message: str) -> str:
+    print(f"📨 Notifying Dr. {doctor_name} | Message: {message}")
+    return f"Doctor {doctor_name} notified with message: {message}"

@@ -1,6 +1,3 @@
-# app/email.py
-
-# 🔧 MOCK email sender function
-async def send_email_confirmation(to_email: str, subject: str, body: str) -> str:
-    print(f"📧 Email sent to {to_email} with subject '{subject}' and body:\n{body}")
-    return "✅ Email sent (mocked)"
+def send_email_confirmation(recipient: str, subject: str, content: str) -> str:
+    print(f"📧 Sending email to {recipient} | Subject: {subject} | Content: {content}")
+    return f"Email sent to {recipient} with subject '{subject}'"

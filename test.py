@@ -1,9 +1,11 @@
-import asyncio
-import asyncpg
+import openai
 
-async def test():
-    conn = await asyncpg.connect("postgresql://postgres:PB6TJEg52gg.FR2@db.mngdchcycmeaetmvmmlu.supabase.co:5432/postgres?sslmode=require")
-    print("✅ Connected!")
-    await conn.close()
+openai.api_key = "sk-Lm29aYjdfgO1tW4pXs93mHzZqK7UyPe3Q0lNKw9cXvJH"
 
-asyncio.run(test())
+response = openai.Completion.create(
+    model="text-davinci-003",
+    prompt="What is the meaning of love?",
+    max_tokens=50
+)
+
+print(response.choices[0].text.strip())
