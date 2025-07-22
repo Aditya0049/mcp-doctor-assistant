@@ -5,12 +5,10 @@ langchain-community
 asyncpg
 python-dotenv
 
-# For database
+# For Google Calendar integration
 google-auth
 google-auth-oauthlib
 google-api-python-client
-python-dotenv
 
-#for email 
-smtplib
+# For email validationn
 email-validator
